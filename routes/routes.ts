@@ -1,14 +1,14 @@
 import { Router } from "express";
-
+import { getData, getDataByName, postData, deleteData } from "../controllers/controllersExpenses";
 
 const mainRoutes = Router();
 
-mainRoutes.get('/',);
+mainRoutes.get('/',getData);
 
-mainRoutes.get('/:id',);
+mainRoutes.get('/:id',getDataByName);
 
-mainRoutes.post('/',);
+mainRoutes.post('/',postData);
 
-mainRoutes.delete('/:id',);
+mainRoutes.delete('/:id',deleteData);
 
 export default mainRoutes;
