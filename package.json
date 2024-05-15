@@ -1,0 +1,27 @@
+{
+  "name": "entrega-2-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flein890/API-de-gastos.git"
+  },
+  "author": "Franco Villanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flein890/API-de-gastos/issues"
+  },
+  "homepage": "https://github.com/Flein890/API-de-gastos#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
